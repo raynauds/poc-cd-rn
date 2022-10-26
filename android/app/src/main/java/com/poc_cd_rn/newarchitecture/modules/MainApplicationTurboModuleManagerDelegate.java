@@ -1,4 +1,4 @@
-package com.poc_cd_rn.newarchitecture.modules;
+package com.sraynaud.poccdrn.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;

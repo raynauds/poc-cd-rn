@@ -1,4 +1,4 @@
-package com.poc_cd_rn;
+package com.sraynaud.poccdrn;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

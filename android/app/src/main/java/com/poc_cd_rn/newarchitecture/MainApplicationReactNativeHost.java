@@ -1,4 +1,4 @@
-package com.poc_cd_rn.newarchitecture;
+package com.sraynaud.poccdrn.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.poc_cd_rn.BuildConfig;
-import com.poc_cd_rn.newarchitecture.components.MainComponentsRegistry;
-import com.poc_cd_rn.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.sraynaud.poccdrn.BuildConfig;
+import com.sraynaud.poccdrn.newarchitecture.components.MainComponentsRegistry;
+import com.sraynaud.poccdrn.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 
