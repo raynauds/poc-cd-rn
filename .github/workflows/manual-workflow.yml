@@ -1,0 +1,22 @@
+name: Manual workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      versionBump:
+        type: choice
+        description: Which kind of version bump
+        options: 
+        - major
+        - minor
+        - patch
+        - none
+        default: none
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print version bump
+      run: echo "${{ github.event.inputs.versionBump }}"

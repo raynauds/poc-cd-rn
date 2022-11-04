@@ -65,3 +65,6 @@ buck-out/
 
 # fastlane
 /android/service-account-secret.json
+
+# act
+act.secrets
