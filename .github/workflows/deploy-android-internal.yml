@@ -28,10 +28,10 @@ jobs:
           ls
           echo "$KEYSTORE_FILE" > app/poc-cd-rn.keystore.b64
           base64 -d -i app/poc-cd-rn.keystore.b64 > app/poc-cd-rn.keystore
-          echo "storeFile=poc-cd-rn.keystore" >> keystore.properties
-          echo "keyAlias=$KEYSTORE_KEY_ALIAS" >> keystore.properties
-          echo "storePassword=$KEYSTORE_STORE_PASSWORD" >> keystore.properties
-          echo "keyPassword=$KEYSTORE_KEY_PASSWORD" >> keystore.properties
+          echo "MYAPP_UPLOAD_STORE_FILE=poc-cd-rn.keystore" >> gradle.properties
+          echo "MYAPP_UPLOAD_KEY_ALIAS=$KEYSTORE_KEY_ALIAS" >> gradle.properties
+          echo "MYAPP_UPLOAD_STORE_PASSWORD=$KEYSTORE_STORE_PASSWORD" >> gradle.properties
+          echo "MYAPP_UPLOAD_KEY_PASSWORD=$KEYSTORE_KEY_PASSWORD" >> gradle.properties
         env:
           KEYSTORE_FILE: ${{ secrets.KEYSTORE_FILE }}
           KEYSTORE_KEY_ALIAS: ${{ secrets.KEYSTORE_KEY_ALIAS }}
