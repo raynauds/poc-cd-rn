@@ -1,0 +1,2 @@
+Proof of concept for continuous deployment of a react native mobile app.
+I am a mobile developer wanting to learn more about continuous deployment of android apps. I do not intend to release this app in production.
