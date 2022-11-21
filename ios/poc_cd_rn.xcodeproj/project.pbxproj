@@ -507,7 +507,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sraynaud.poccdrn;
 				PRODUCT_NAME = poc_cd_rn;
-				PROVISIONING_PROFILE_SPECIFIER = "poc cd rn (distribution)";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.sraynaud.poccdrn";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -537,7 +537,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sraynaud.poccdrn;
 				PRODUCT_NAME = poc_cd_rn;
-				PROVISIONING_PROFILE_SPECIFIER = "poc cd rn (distribution)";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.sraynaud.poccdrn";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

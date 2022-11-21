@@ -68,3 +68,6 @@ buck-out/
 
 # act
 act.secrets
+
+# .env
+.env
