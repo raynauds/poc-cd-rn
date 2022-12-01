@@ -1,4 +1,4 @@
-git_url("git@github.com:raynauds/poc-cd-rn-certificates.git")
+git_url("https://github.com/raynauds/poc-cd-rn-certificates.git")
 
 storage_mode("git")
 

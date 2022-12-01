@@ -8,7 +8,7 @@ TEMP_KEYCHAIN_PASSWORD = ENV["TEMP_KEYCHAIN_PASSWORD"]
 APPLE_ISSUER_ID = ENV["APPLE_ISSUER_ID"]
 APPLE_KEY_ID = ENV["APPLE_KEY_ID"]
 APPLE_KEY_CONTENT = ENV["APPLE_KEY_CONTENT"]
-GIT_AUTHORIZATION = ENV["GIT_AUTHORIZATION"]
+GIT_AUTHORIZATION_BASE_64 = ENV["GIT_AUTHORIZATION_BASE_64"]
 
 def delete_temp_keychain(name)
   delete_keychain(
@@ -53,7 +53,7 @@ platform :ios do
     match(
       type: 'appstore',
       app_identifier: "#{DEVELOPER_APP_IDENTIFIER}",
-      git_basic_authorization: GIT_AUTHORIZATION,
+      git_basic_authorization: GIT_AUTHORIZATION_BASE_64,
       readonly: true,
       keychain_name: keychain_name,
       keychain_password: keychain_password,
